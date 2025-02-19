@@ -24,7 +24,7 @@ function createSnowflake() {
     snowflake.style.top = -Math.random() * 500 + 'px';
     snowflake.style.fontSize = Math.random() * 10 + 10 + 'px';
     snowflake.style.color = 'skyblue';
-    snowflake.textContent = 'Happy Birthday!';
+    snowflake.textContent = '🥳';
     document.querySelector('.snowfall').appendChild(snowflake);
 
     snowflakes.push(snowflake);
